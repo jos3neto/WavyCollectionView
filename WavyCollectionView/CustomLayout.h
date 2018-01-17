@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomLayout.h
 //  WavyCollectionView
 //
 //  Created by Jose on 15/1/18.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomLayout.h"
 
-@interface ViewController : UIViewController
-
+@interface CustomLayout : UICollectionViewFlowLayout
 
 @end
-

@@ -13,6 +13,7 @@
 		82AA6C21200CDCB000BD4A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C1F200CDCB000BD4A26 /* Main.storyboard */; };
 		82AA6C23200CDCB000BD4A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C22200CDCB000BD4A26 /* Assets.xcassets */; };
 		82AA6C26200CDCB000BD4A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AA6C24200CDCB000BD4A26 /* LaunchScreen.storyboard */; };
+		82AA6C2F200CE97100BD4A26 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA6C2E200CE97100BD4A26 /* CustomLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		82AA6C22200CDCB000BD4A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82AA6C25200CDCB000BD4A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AA6C27200CDCB000BD4A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AA6C2D200CE97100BD4A26 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
+		82AA6C2E200CE97100BD4A26 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,11 @@
 		82AA6C15200CDCB000BD4A26 /* WavyCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				82AA6C19200CDCB000BD4A26 /* AppDelegate.h */,
-				82AA6C1A200CDCB000BD4A26 /* AppDelegate.m */,
+				82AA6C1F200CDCB000BD4A26 /* Main.storyboard */,
 				82AA6C1C200CDCB000BD4A26 /* ViewController.h */,
 				82AA6C1D200CDCB000BD4A26 /* ViewController.m */,
-				82AA6C1F200CDCB000BD4A26 /* Main.storyboard */,
-				82AA6C22200CDCB000BD4A26 /* Assets.xcassets */,
-				82AA6C24200CDCB000BD4A26 /* LaunchScreen.storyboard */,
-				82AA6C27200CDCB000BD4A26 /* Info.plist */,
+				82AA6C2D200CE97100BD4A26 /* CustomLayout.h */,
+				82AA6C2E200CE97100BD4A26 /* CustomLayout.m */,
 				82AA6C16200CDCB000BD4A26 /* Supporting Files */,
 			);
 			path = WavyCollectionView;
@@ -74,7 +74,12 @@
 		82AA6C16200CDCB000BD4A26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82AA6C19200CDCB000BD4A26 /* AppDelegate.h */,
+				82AA6C1A200CDCB000BD4A26 /* AppDelegate.m */,
 				82AA6C17200CDCB000BD4A26 /* main.m */,
+				82AA6C22200CDCB000BD4A26 /* Assets.xcassets */,
+				82AA6C24200CDCB000BD4A26 /* LaunchScreen.storyboard */,
+				82AA6C27200CDCB000BD4A26 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AA6C2F200CE97100BD4A26 /* CustomLayout.m in Sources */,
 				82AA6C1E200CDCB000BD4A26 /* ViewController.m in Sources */,
 				82AA6C1B200CDCB000BD4A26 /* AppDelegate.m in Sources */,
 				82AA6C18200CDCB000BD4A26 /* main.m in Sources */,
